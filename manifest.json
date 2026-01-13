@@ -1,0 +1,53 @@
+{
+  "name": "AccessiGo - Namma Metro Accessibility",
+  "short_name": "AccessiGo",
+  "description": "Bengaluru Namma Metro Accessibility Companion. Trip planning, station facilities, and staff assistance.",
+  "start_url": "./index.html",
+  "id": "/",
+  "display": "standalone",
+  "background_color": "#0A0A0A",
+  "theme_color": "#FFD700",
+  "orientation": "portrait-primary",
+  "categories": [
+    "navigation",
+    "travel",
+    "accessibility",
+    "utilities"
+  ],
+  "icons": [
+    {
+      "src": "icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "screenshots/mobile-landing.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "AccessiGo Landing Page"
+    },
+    {
+      "src": "screenshots/mobile-trip.png",
+      "sizes": "390x844",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Trip Planner with Accessibility Options"
+    }
+  ]
+}
